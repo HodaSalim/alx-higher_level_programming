@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 const process = require("node:process");
 const fs = require("node:fs");
 // argument index is 2
