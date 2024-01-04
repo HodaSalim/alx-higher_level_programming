@@ -6,7 +6,7 @@ const url = process.argv[2];
 request(url, (error, response, body) => {
   if (error) console.log(error);
   const movies = JSON.parse(body).results;
-  let count = 0; // Print the HTML for the Google homepage.
+  let count = 0;
   movies.forEach((movie) => {
     if (
       movie.characters.includes(
